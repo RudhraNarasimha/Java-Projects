@@ -5,6 +5,7 @@ public abstract class Account {
 	private Customer customer;
 	private double balance;
 
+	// Constructor
 	public Account(String accnumber, Customer customer, double balance) {
 		super();
 		this.accnumber = accnumber;
